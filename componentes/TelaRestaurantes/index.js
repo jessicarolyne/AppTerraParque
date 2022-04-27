@@ -1,8 +1,8 @@
 import React from 'react';
 import {Text} from 'react-native';
 
-export default function TelaPasseios(){
+export default function TelaRestaurantes(){
     return (
-        <Text>Tela Passeios</Text>
+        <Text>Tela Restaurante</Text>
     )
 }
