@@ -18,7 +18,7 @@ export default function App () {
         <Stack.Screen name="Tela Inicial" component = { TelaInicial } />
         <Stack.Screen name="Tela Restaurantes" component = { TelaRestaurantes } />
         <Stack.Screen name="Tela Passeios" component = { TelaPasseios } />
-        <Stack.Screen name="Tela Hospedagem" component = { TelaHospedagens } />
+        <Stack.Screen name="Tela Hospedagens" component = { TelaHospedagens } />
       </Stack.Navigator>
     </NavigationContainer>
   )
