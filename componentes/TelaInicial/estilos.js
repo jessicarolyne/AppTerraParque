@@ -13,7 +13,7 @@ const estilos = StyleSheet.create({
         padding: 10,
         borderWidth: 1,
         borderColor: 'white',
-        borderRadius: 20,
+        borderRadius: 5,
     },
     conteudo: {
         alignItems: 'center',
@@ -21,7 +21,7 @@ const estilos = StyleSheet.create({
     },
     titulo: {
         fontSize: 24,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
     },
     texto: {
         fontSize: 16,
