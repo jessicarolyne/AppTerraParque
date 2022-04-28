@@ -16,21 +16,21 @@ export default function TelaInicial(props){
                 <View style={estilos.botao}>
                     <Button
                         title="Restaurantes"
-                        onPress={()=>{props.navigation.navigate("Tela Restaurantes")}}
-                    />
-                </View>
-                <View style={estilos.botao}>
-                    <Button
-                        style={estilos.botao}
-                        title="Hospedagens"
-                        onPress={()=>{props.navigation.navigate("Tela Hospedagens")}}
+                        onPress={()=>{props.navigation.navigate("Restaurante")}}
                     />
                 </View>
                 <View style={estilos.botao}>
                     <Button
                         style={estilos.botao}
                         title='Passeios'
-                        onPress={()=>{props.navigation.navigate("Tela Passeios")}}
+                        onPress={()=>{props.navigation.navigate("Passeios")}}
+                    />
+                </View>
+                <View style={estilos.botao}>
+                    <Button
+                        style={estilos.botao}
+                        title="Hospedagens"
+                        onPress={()=>{props.navigation.navigate("Hospedagens")}}
                     />
                 </View>
             </View>

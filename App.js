@@ -15,10 +15,10 @@ export default function App () {
   return (
     <NavigationContainer >
       <Stack.Navigator>
-        <Stack.Screen name="Tela Inicial" component = { TelaInicial } />
-        <Stack.Screen name="Tela Restaurantes" component = { TelaRestaurantes } />
-        <Stack.Screen name="Tela Passeios" component = { TelaPasseios } />
-        <Stack.Screen name="Tela Hospedagens" component = { TelaHospedagens } />
+        <Stack.Screen name="Inicio" component = { TelaInicial } />
+        <Stack.Screen name="Restaurante" component = { TelaRestaurantes } />
+        <Stack.Screen name="Passeios" component = { TelaPasseios } />
+        <Stack.Screen name="Hospedagens" component = { TelaHospedagens } />
       </Stack.Navigator>
     </NavigationContainer>
   )

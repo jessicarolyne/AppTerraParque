@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const estilos = StyleSheet.create({
     container: {
-        backgroundColor: 'gray',
+        backgroundColor: 'lightgray',
         padding: 15,
         height: '100%',
         alignItems: 'center',
