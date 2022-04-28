@@ -22,7 +22,7 @@ const estilos = StyleSheet.create({
     card: {
         backgroundColor: '#fff',
         width: '100%',
-        height: 160,
+        height: 200,
         padding: 10,
         marginVertical: 10,
         borderColor: '#fff',
@@ -31,15 +31,14 @@ const estilos = StyleSheet.create({
     },
     imagem: {
         width: '100%',
-        height: 100,
+        height: 150,
         borderRadius: 5,
     },
     titulocard: {
         fontSize: 15,
         fontWeight: 'bold',
-        paddingVertical: 5,
         textAlign: 'center',
-        paddingVertical: 5,
+        paddingBottom: 10,
     },
 });
 
