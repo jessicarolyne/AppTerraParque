@@ -30,7 +30,15 @@ const estilos = StyleSheet.create({
         color: '#fff',
     },
     botao: {
+        height: 40,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 10,
+        backgroundColor: 'lightpink',
         marginBottom: 10,
+    },
+    botaotitulo: {
+        color: 'white',
     }
 });
 
